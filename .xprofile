@@ -1,0 +1,33 @@
+# Env vars
+export PATH=$HOME/.local/bin:$PATH
+export _JAVA_AWT_WM_NONREPARENTING=1
+export QT_STYLE_OVERRIDE=kvantum 
+
+# Screens
+hdmi=`xrandr | grep ' connected' | grep 'HDMI' | awk '{print $1}'`
+
+if [ "$hdmi" = "HDMI-1" ]; then
+  xrandr --output eDP-1 --primary --mode 1366x768 --pos 276x1080 --output HDMI-1 --mode 1920x1080 --pos 0x0 &
+else
+  xrandr --output eDP-1 --primary --mode 1366x768 --pos 0x0 --rotate normal --output HDMI-1 --off --output DP-1 --off &
+fi
+
+# Composer
+picom &
+# Network
+nm-applet &
+# Keyboard Layout
+setxkbmap es &
+# Automount Devices
+udiskie -t &
+# Java Fonts
+xsettingsd &
+# Wallpaper
+feh --bg-scale Pictures/bg.png &
+# Overlay Bar
+xob-pulse-py | xob -s pulse &
+xob-brightness-js | xob -s brightness &
+# Systray volume icon
+volumeicon &
+# Systray battery icon
+cbatticon &

@@ -1,0 +1,22 @@
+configuration {
+ modi: "window,drun,ssh,combi";
+ width: 50;
+ lines: 15;
+ columns: 1;
+ font: "UbuntuMono Nerd Font 14";
+ combi-modi: "window,drun,ssh";
+ show-icons: true;
+ terminal: "rofi-sensible-terminal";
+ ssh-client: "ssh";
+ ssh-command: "{terminal} -e {ssh-client} {host} [-p {port}]";
+ separator-style: "dash";
+ hide-scrollbar: false;
+ fullscreen: false;
+ fake-transparency: false;
+ dpi: -1;
+ threads: 0;
+ scrollbar-width: 8;
+ scroll-method: 0;
+ fake-background: "screenshot";
+ }
+@theme "onedark"

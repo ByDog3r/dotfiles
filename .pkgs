@@ -1,0 +1,35 @@
+# ------------------
+# |   Desktop Gui  |
+# ------------------
+
+1. lightdm 
+2. lightdm-gtk-greeter
+3. Qtile 
+4. xterm 
+5. Thunar
+6. Kitty
+7. feh
+8. Ranger
+9. Scrot
+10. Picom
+
+# ----------------
+# |   Systray    |
+# ----------------
+
+1. Cbatticon 
+2. network-manager-applet
+3. udiskie
+4. volumeicon 
+5. ntfs-3g
+
+# ----------------
+# | Applications |
+# ----------------
+
+1. Opera
+2. NeoVim (Nvim)
+3. Redshift
+4. pulseaudio
+5. pavucontrol
+6. SimpleScreenRecorder

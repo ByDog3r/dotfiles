@@ -1,9 +1,15 @@
-## Dotfiles & Configs
+<p align="center">
+  <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
+</p>
+
+<p align="center">
+  <b>< Dotfiles & Configs /></b>
+</p>
 
 <!-- RICE PREVIEW -->
 <div align="center">
    <a href="#--------">
-      <img src="assets/rice-qtile.png" alt="Rice Preview">
+      <img src="assets/ricing.png" alt="Rice Preview">
    </a>
 </div>
 

@@ -1,8 +1,11 @@
 ## Dotfiles & Configs
 
-![Screenshot1](https://user-images.githubusercontent.com/66902449/169684508-c6da8180-69a0-4835-90a6-1f51385ec064.png)
-![Screenshot2](https://user-images.githubusercontent.com/66902449/169684529-6890cbc0-3e3a-44e4-a580-8ccb80497f90.png)
-![Screenshot3](https://user-images.githubusercontent.com/66902449/169684557-89590758-72b8-4cf2-adde-59e5f1bed282.png)
+<!-- RICE PREVIEW -->
+<div align="center">
+   <a href="#--------">
+      <img src="assets/rice-qtile.png" alt="Rice Preview">
+   </a>
+</div>
 
 
 <h1>
@@ -54,6 +57,7 @@ Below is a list of some of the packages that I use for my current setup.
 - **Shell** --- [ZSH](https://www.zsh.org)
 - **Terminal** --- [Kitty](https://wiki.archlinux.org/index.php/Kitty)
 - **Compositor** --- [Picom](https://wiki.archlinux.org/index.php/Picom)
+- **Font** --- [Ubuntu-mono Nerd Font](https://aur.archlinux.org/packages/nerd-fonts-ubuntu-mono)
 - **Notification Daemon** --- [Dunst](https://wiki.archlinux.org/index.php/Dunst)
 - **Application Launcher** --- [Rofi](https://wiki.archlinux.org/index.php/Rofi)
 - **File Manager** --- [Ranger](https://aur.archlinux.org/packages/ranger-git) & [Thunar](https://docs.xfce.org/xfce/thunar/start)
@@ -63,8 +67,8 @@ Below is a list of some of the packages that I use for my current setup.
 - **Web Browser** --- [Opera](https://www.opera.com)
 - **PDF Viewer** --- [Okular](https://okular.kde.org)
 - **Video player** --- [Mpv](https://aur.archlinux.org/packages/mpv-git)
-- **Screen Recorder** -- [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/)
-- **Run Windows applications** -- [Wine](https://www.winehq.org)
+- **Screen Recorder** --- [SimpleScreenRecorder](https://www.maartenbaert.be/simplescreenrecorder/)
+- **Run Windows applications** --- [Wine](https://www.winehq.org)
 
 ## Keybindings
 I use <kbd>mod/super</kbd> AKA Windows key as my main modifier.
@@ -82,9 +86,12 @@ also with <kbd>alt, shift, and ctrl</kbd>
 | <kbd>CTRL + MOD + q</kbd>            | shutdown Qtile                 |
 | <kbd>MOD + w</kbd>                   | kill window                    |
 | <kbd>MOD + RETURN</kbd>              | spawn terminal                 |
-| <kbd>MOD + Print</kbd>               | Screenshot                     |
+| <kbd>MOD + Print</kbd>               | Take Screenshot                |
+| <kbd>MOD + SHIFT + Print</kbd>       | Screenshot to clipboard        |
 | <kbd>MOD + [1-7]</kbd>               | Switch to workspace N (1-7)    |
 | <kbd>MOD + SHIFT + [1-7]</kbd>       | Send window to workspace (1-7) |
+| <kbd>MOD + f</kbd>                   | Full Screen                    |
+| <kbd>MOD + x</kbd>                   | Hide bar                       |
 
 </details>
 

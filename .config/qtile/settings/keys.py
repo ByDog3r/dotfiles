@@ -52,14 +52,20 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "r", lazy.spawn("redshift -O 2400")),
     ([mod, "shift"], "r", lazy.spawn("redshift -x")),
 
-    # Screenshot
+    # Take Screenshot
+    ([mod, "shift"], "Print", lazy.spawn("scrot 'ArcoLinux-%Y-%m-%d-%H-%s_screenshot.png' -s -e 'xclip -selection clipboard -t image/png -i $f && rm *.png'")),
+    
+    # Save Screenshot
     ([mod], "Print", lazy.spawn("scrot")),
-    ([mod, "shift"], "Print", lazy.spawn("scrot -s")),
 
     # Toggle between different layouts as defined below
     ([mod], "Tab", lazy.next_layout()),
 
-    # kill window
+
+
+    # --------------- Qtile Configs -------------------
+
+    # Kill window
     ([mod], "w", lazy.window.kill()),
 
     # Reload configs
@@ -67,6 +73,12 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
 
     # Shutdown Qtile
     ([mod, "control"], "q", lazy.shutdown()),
+
+    # Full Screen
+    ([mod], "f", lazy.window.toggle_fullscreen()),
+
+     # Hide Bar
+    ([mod], "x", lazy.hide_show_bar(position='all')),
 
 
     # ------------ Hardware Configs ------------

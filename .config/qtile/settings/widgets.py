@@ -74,17 +74,13 @@ primary_widgets = [
 
     icon(bg="color4", text=' '), # Icon: nf-fa-download
     
-    widget.CryptoTicker(
-        background=colors['color4'],
-        crypto='BTC',
-        format='{amount:,.2f}'
-        ),
+    widget.CryptoTicker(**base(bg='color4'), crypto='BTC', format='{amount:,.2f}'),
 
     powerline('color3', 'color4'),
 
-    icon(bg="color3", text=' '),  # Icon: nf-fa-feed
+    icon(bg="color3", text=' '),  # Icon: nf-fa-feed
     
-    widget.Net(**base(bg='color3'), interface='wlp3s0'),
+    widget.Net(**base(bg='color3', fg="text"), interface='wlp3s0'),
 
     powerline('color2', 'color3'),
 

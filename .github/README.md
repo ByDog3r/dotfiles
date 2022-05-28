@@ -1,5 +1,7 @@
 <p align="center">
+  <a href="#--------">
   <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
+  </a>
 </p>
 
 <p align="center">
@@ -8,8 +10,8 @@
 
 <!-- RICE PREVIEW -->
 <div align="center">
-   <a href="#--------">
-      <img src="assets/ricing.png" alt="Rice Preview">
+   <a href="https://cdn.discordapp.com/attachments/801794166199681045/980218369632505968/ricing.jpg">
+      <img src="assets/ricing.jpg" alt="Rice Preview">
    </a>
 </div>
 

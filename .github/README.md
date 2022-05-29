@@ -1,5 +1,12 @@
+<!-- @BYDOG3R RACE - PROGRESS
+
+1. [![Init](https://i.postimg.cc/Rh9N7ymp/first-attempt.png)](https://vimeo.com/714834381)
+2. [![Second](https://i.postimg.cc/SNRmBkg7/second.png)](https://vimeo.com/714835164)
+3. [![Update](https://i.postimg.cc/MHdVvqBm/third.png)(https://vimeo.com/714835374)]
+-->
+
 <p align="center">
-  <a href="#--------">
+  <a href="https://github.com/ByDog3r">
   <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
   </a>
 </p>
@@ -10,7 +17,7 @@
 
 <!-- RICE PREVIEW -->
 <div align="center">
-   <a href="https://cdn.discordapp.com/attachments/801794166199681045/980218369632505968/ricing.jpg">
+   <a href="https://vimeo.com/714835374">
       <img src="assets/ricing.jpg" alt="Rice Preview">
    </a>
 </div>

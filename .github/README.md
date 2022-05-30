@@ -17,7 +17,7 @@
 
 <!-- RICE PREVIEW -->
 <div align="center">
-   <a href="https://vimeo.com/714835374">
+   <a href="https://vimeo.com/715142042">
       <img src="assets/ricing.jpg" alt="Rice Preview">
    </a>
 </div>
@@ -49,7 +49,7 @@ cp .profile .zshrc ~/
 sudo pacman -S wine
 
 # Set your wallpaper, edit .xprofile and find this line
-feh --bg-scale Pictures/bg.png &
+feh --bg-scale /usr/share/pixmaps/wallpaper0.png &
 
 # Set your qtile theme, edit .config/qtile/settings/theme.py 
 # and find this line:
@@ -69,6 +69,7 @@ Below is a list of some of the packages that I use for my current setup.
 - **Boot Loader** --- [Grub](https://wiki.archlinux.org/index.php/GRUB)
 - **Window Manager** --- [Qtile](https://aur.archlinux.org/packages/qtile-git)
 - **Screen Locker** --- [Betterlockscreen](https://aur.archlinux.org/packages/betterlockscreen)
+- **Login Manager** -- [LightDM](https://wiki.archlinux.org/title/LightDM)
 - **Shell** --- [ZSH](https://www.zsh.org)
 - **Terminal** --- [Kitty](https://wiki.archlinux.org/index.php/Kitty)
 - **Compositor** --- [Picom](https://wiki.archlinux.org/index.php/Picom)

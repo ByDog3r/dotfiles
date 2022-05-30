@@ -23,7 +23,7 @@ udiskie -t &
 # Java Fonts
 xsettingsd &
 # Wallpaper
-feh --bg-scale Pictures/bg.png &
+feh --bg-scale /usr/share/pixmaps/wallpaper0.png &
 # Overlay Bar
 xob-pulse-py | xob -s pulse &
 xob-brightness-js | xob -s brightness &

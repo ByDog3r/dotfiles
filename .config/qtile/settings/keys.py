@@ -8,27 +8,47 @@ mod = "mod4"
 
 keys = [Key(key[0], key[1], *key[2:]) for key in [
 
-     # ---------------- Windows Manager --------------------
+    # ------------ Window Configs ------------
 
-    ([mod], "h", lazy.layout.left()),
-    ([mod], "l", lazy.layout.right()),
+    # Switch between windows in current stack pane
     ([mod], "j", lazy.layout.down()),
     ([mod], "k", lazy.layout.up()),
-    ([mod], "space", lazy.layout.next()),
-    # Move windows between left/right columns or move up/down in current stack.
-    # Moving out of range in Columns layout will create new column.
-    ([mod, "shift"], "h", lazy.layout.shuffle_left()),
-    ([mod, "shift"], "l", lazy.layout.shuffle_right()),
+    ([mod], "h", lazy.layout.left()),
+    ([mod], "l", lazy.layout.right()),
+
+    # Change window sizes (MonadTall)
+    ([mod, "shift"], "l", lazy.layout.grow()),
+    ([mod, "shift"], "h", lazy.layout.shrink()),
+
+    # Toggle floating
+    ([mod, "shift"], "f", lazy.window.toggle_floating()),
+
+    # Move windows up or down in current stack
     ([mod, "shift"], "j", lazy.layout.shuffle_down()),
     ([mod, "shift"], "k", lazy.layout.shuffle_up()),
-    # Grow windows. If current window is on the edge of screen and direction
-    # will be to screen edge - window would shrink.
-    ([mod, "control"], "h", lazy.layout.grow_left()),
-    ([mod, "control"], "l", lazy.layout.grow_right()),
-    ([mod, "control"], "j", lazy.layout.grow_down()),
-    ([mod, "control"], "k", lazy.layout.grow_up()),
-    ([mod], "n", lazy.layout.normalize()),
-    # Toggle between split and unsplit sides of stack.
+
+    # Toggle between different layouts as defined below
+    ([mod], "Tab", lazy.next_layout()),
+    ([mod, "shift"], "Tab", lazy.prev_layout()),
+
+    # Kill window
+    ([mod], "w", lazy.window.kill()),
+
+    # Switch focus of monitors
+    ([mod], "period", lazy.next_screen()),
+    ([mod], "comma", lazy.prev_screen()),
+
+    # Restart Qtile
+    ([mod, "control"], "r", lazy.restart()),
+
+    ([mod, "control"], "q", lazy.shutdown()),
+    ([mod], "r", lazy.spawncmd()),
+
+    # Full Screen
+    ([mod], "f", lazy.window.toggle_fullscreen()),
+
+     # Hide Bar
+    ([mod], "x", lazy.hide_show_bar(position='all')),
 
 
     # ----------------- Aplication Configs ------------------------
@@ -57,28 +77,6 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     
     # Save Screenshot
     ([mod], "Print", lazy.spawn("scrot")),
-
-    # Toggle between different layouts as defined below
-    ([mod], "Tab", lazy.next_layout()),
-
-
-
-    # --------------- Qtile Configs -------------------
-
-    # Kill window
-    ([mod], "w", lazy.window.kill()),
-
-    # Reload configs
-    ([mod, "control"], "r", lazy.reload_config()),
-
-    # Shutdown Qtile
-    ([mod, "control"], "q", lazy.shutdown()),
-
-    # Full Screen
-    ([mod], "f", lazy.window.toggle_fullscreen()),
-
-     # Hide Bar
-    ([mod], "x", lazy.hide_show_bar(position='all')),
 
 
     # ------------ Hardware Configs ------------

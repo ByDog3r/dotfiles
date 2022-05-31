@@ -97,17 +97,22 @@ also with <kbd>alt, shift, and ctrl</kbd>
 | ------------------------------------ | ------------------------------ |
 | <kbd>MOD + j</kbd>                   | Next windown (down)            |
 | <kbd>MOD + k</kbd>                   | Next windown (up)              |
+| <kbd>MOD + SHIFT + h</kbd>           | Decrease master                |
+| <kbd>MOD + SHIFT + l</kbd>           | Increase master                |
+| <kbd>MOD + SHIFT + j</kbd>           | Move window down               |
+| <kbd>MOD + SHIFT + k</kbd>           | Move window up                 |
+| <kbd>MOD + SHIFT + f</kbd>           | Toggle floating                |
 | <kbd>MOD + TAB</kbd>                 | Change layout                  |
-| <kbd>CTRL + MOD + r</kbd>            | restart Qtile                  |
-| <kbd>CTRL + MOD + q</kbd>            | shutdown Qtile                 |
 | <kbd>MOD + w</kbd>                   | kill window                    |
 | <kbd>MOD + RETURN</kbd>              | spawn terminal                 |
-| <kbd>MOD + Print</kbd>               | Take Screenshot                |
-| <kbd>MOD + SHIFT + Print</kbd>       | Screenshot to clipboard        |
 | <kbd>MOD + [1-7]</kbd>               | Switch to workspace N (1-7)    |
 | <kbd>MOD + SHIFT + [1-7]</kbd>       | Send window to workspace (1-7) |
+| <kbd>MOD + PERIOD</kbd>              | Focus next monitor             |
+| <kbd>MOD + COMMA</kbd>               | Focus previous monitor         |
 | <kbd>MOD + f</kbd>                   | Full Screen                    |
 | <kbd>MOD + x</kbd>                   | Hide bar                       |
+| <kbd>MOD + CTRL + r</kbd>            | Restart Qtile WM               |
+| <kbd>MOD + CTRL + q</kbd>            | Quit WM (Window Manager)       |
 
 </details>
 
@@ -118,10 +123,13 @@ also with <kbd>alt, shift, and ctrl</kbd>
 |--------------------------------------|---------------------------|
 | <kbd>MOD + m</kbd>                   | Rofi Menu                 |
 | <kbd>MOD + SHIFT + m</kbd>           | Nav Menu                  |
-| <kbd>MOD + b</kbd>                   | Run Opera                 |
-| <kbd>MOD + e</kbd>                   | Run Thunar                |
+| <kbd>MOD + b</kbd>                   | Launch Opera              |
+| <kbd>MOD + e</kbd>                   | Launch Thunar             |
 | <kbd>MOD + r</kbd>                   | Run Redshift              |
 | <kbd>MOD + SHIFT + r</kbd>           | Stop Redshift             |
+| <kbd>MOD + Print</kbd>               | Take Screenshot (scrot)   |
+| <kbd>MOD + SHIFT + Print</kbd>       | SCreenshot to clipboard   |
+
 </details>
 
 ## Terminal Commands

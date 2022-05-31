@@ -109,7 +109,7 @@ also with <kbd>alt, shift, and ctrl</kbd>
 | <kbd>MOD + SHIFT + [1-7]</kbd>       | Send window to workspace (1-7) |
 | <kbd>MOD + PERIOD</kbd>              | Focus next monitor             |
 | <kbd>MOD + COMMA</kbd>               | Focus previous monitor         |
-| <kbd>MOD + f</kbd>                   | Full Screen                    |
+| <kbd>MOD + u</kbd>                   | Full Screen                    |
 | <kbd>MOD + x</kbd>                   | Hide bar                       |
 | <kbd>MOD + CTRL + r</kbd>            | Restart Qtile WM               |
 | <kbd>MOD + CTRL + q</kbd>            | Quit WM (Window Manager)       |

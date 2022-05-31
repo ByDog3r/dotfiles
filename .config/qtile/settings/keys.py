@@ -45,7 +45,7 @@ keys = [Key(key[0], key[1], *key[2:]) for key in [
     ([mod], "r", lazy.spawncmd()),
 
     # Full Screen
-    ([mod], "f", lazy.window.toggle_fullscreen()),
+    ([mod], "u", lazy.window.toggle_fullscreen()),
 
      # Hide Bar
     ([mod], "x", lazy.hide_show_bar(position='all')),

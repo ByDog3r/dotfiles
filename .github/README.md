@@ -1,13 +1,6 @@
-<!-- @BYDOG3R RACE - PROGRESS
-
-1. [![Init](https://i.postimg.cc/Rh9N7ymp/first-attempt.png)](https://vimeo.com/714834381)
-2. [![Second](https://i.postimg.cc/SNRmBkg7/second.png)](https://vimeo.com/714835164)
-3. [![Update](https://i.postimg.cc/MHdVvqBm/third.png)(https://vimeo.com/714835374)]
--->
-
 <p align="center">
   <a href="https://github.com/ByDog3r">
-  <img width="40%" src="https://raw.githubusercontent.com/Mangeshrex/dotfiles/main/etc/pepe.png">
+  <img width="40%" src="assets/init.png">
   </a>
 </p>
 
@@ -25,38 +18,39 @@
 
 <h1>
   <a href="#--------">
-    <img alt="" align="left" src="https://img.shields.io/github/stars/bydog3r/dotfiles?color=162026&labelColor=162026&style=for-the-badge"/>
+    <img alt="" align="left" src="https://img.shields.io/github/stars/ByDog3r/dotfiles?color=c5c8c9&labelColor=0B0F10&style=for-the-badge"/>
   </a>
   <a href="#--------">
-    <img alt="" align="right" src="https://badges.pufler.dev/visits/bydog3r/dotfiles?style=for-the-badge&color=162026&logoColor=white&labelColor=162026"/>
+    <img alt="" align="right" src="https://badges.pufler.dev/visits/ByDog3r/dotfiles?color=c5c8c9&labelColor=0B0F10&style=for-the-badge"/>
   </a>
 </h1>
 
 ## Install this dotfiles
 [Read dotfiles wiki](https://github.com/ByDog3r/dotfiles/wiki/INDEX-OF) to install for manual way.
 
-```bash
-# Clone dotfiles.
-git clone https://github.com/ByDog3r/dotfiles.git
+> **Clone my dotfiles**
+```sh 
+git clone https://github.com/ByDog3r/dotfiles
+```
 
-# Copy my configs
-cp -r .config/* ~/.config/
+> Copy my Configs
+```sh
+cp -r .config* ~/.config/     
+```
 
-# Copy my .xprofile and .zshrc configs
-cp .profile .zshrc ~/
+> Copy the home files
+```sh
+cp .home/* ~/ 
+```
 
-# Sample to install my apps
+> [Install apps](https://github.com/ByDog3r/dotfiles/blob/main/.pkgs), sample to install
+```sh
 sudo pacman -S wine
+```
 
-# Set your wallpaper, edit .xprofile and find this line
+> Set your wallpaper, edit .xprofile and find this line 
+```sh
 feh --bg-scale /usr/share/pixmaps/wallpaper0.png &
-
-# Set your qtile theme, edit .config/qtile/settings/theme.py 
-# and find this line:
-
-def load_theme():
-    theme = "rosepine"
-    ...
 ```
 
 ## Details

@@ -1,6 +1,9 @@
 <p align="center">
-  <a href="https://github.com/ByDog3r">
+  <a href="https://vimeo.com/716954955">
   <img width="40%" src="assets/init.png">
+  <a href="https://github.com/ByDog3r/dotfiles/wiki/INDEX-OF"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/BqgEZFt.png"></a>
+  <a href="---"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/30jbp1p.png"></a>
+  <a href="https://vimeo.com/716954955"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/p7PCbLv.png"></a>
   </a>
 </p>
 
@@ -10,7 +13,7 @@
 
 <!-- RICE PREVIEW -->
 <div align="center">
-   <a href="https://vimeo.com/715142042">
+   <a href="assets/ricing.jpg">
       <img src="assets/ricing.jpg" alt="Rice Preview">
    </a>
 </div>
@@ -157,4 +160,3 @@ also with <kbd>alt, shift, and ctrl</kbd>
 <br>
 
 <p align="center"><img src="https://raw.githubusercontent.com/catppuccin/catppuccin/dev/assets/footers/gray0_ctp_on_line.svg?sanitize=true" /></p>
-<p align="center"><a href="https://github.com/ByDog3r/dotfiles/blob/main/LICENSE"><img src="https://img.shields.io/static/v1.svg?style=flat-square&label=License&message=APACHE-2.0&logoColor=eceff4&logo=github&colorA=061115&colorB=67AFC1"/></a></p>

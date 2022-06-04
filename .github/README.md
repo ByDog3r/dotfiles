@@ -1,10 +1,13 @@
 <p align="center">
   <a href="https://vimeo.com/716954955">
   <img width="40%" src="assets/init.png">
+  </a>
+</p>
+
+<p align="center">
   <a href="https://github.com/ByDog3r/dotfiles/wiki/INDEX-OF"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/BqgEZFt.png"></a>
   <a href="---"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/30jbp1p.png"></a>
   <a href="https://vimeo.com/716954955"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/p7PCbLv.png"></a>
-  </a>
 </p>
 
 <p align="center">

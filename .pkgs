@@ -10,8 +10,11 @@
 6. Kitty
 7. feh
 8. Ranger
-9. Scrot
-10. Picom
+9. ueberzug
+10. Scrot
+11. Picom
+12. Gparted
+13. nerd-fonts-ubuntu-mono
 
 # ----------------
 # |   Systray    |
@@ -33,3 +36,26 @@
 4. pulseaudio
 5. pavucontrol
 6. SimpleScreenRecorder
+7. Spotify + spicetify
+8. Betterdiscord.
+9. notion-app
+
+
+# -----------------
+# |    Kitty      |
+# -----------------
+
+1. bat
+2. lsd
+3. fzf
+4. htop
+5. neofetch
+6. Paru-bin
+
+# -----------------
+# |      etc      |
+# -----------------
+
+1. cmatrix
+2. panes
+3. ttf-devicons

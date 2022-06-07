@@ -16,8 +16,8 @@
 
 <!-- RICE PREVIEW -->
 <div align="center">
-   <a href="assets/ricing.jpg">
-      <img src="assets/ricing.jpg" alt="Rice Preview">
+   <a href="assets/">
+      <img src="assets/race.jpg" alt="Rice Preview">
    </a>
 </div>
 

@@ -5,8 +5,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/ByDog3r/dotfiles/wiki/INDEX-OF"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/BqgEZFt.png"></a>
-  <a href="---"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/30jbp1p.png"></a>
+  <a href="https://github.com/ByDog3r/dotfiles/wiki/"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/BqgEZFt.png"></a>
+  <a href="https://github.com/ByDog3r/dotfiles#install-this-dotfiles"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/30jbp1p.png"></a>
   <a href="https://vimeo.com/716954955"><img width="150px" style="padding: 5 10px;" src="https://i.imgur.com/p7PCbLv.png"></a>
 </p>
 
@@ -32,7 +32,7 @@
 </h1>
 
 ## Install this dotfiles
-[Read dotfiles wiki](https://github.com/ByDog3r/dotfiles/wiki/INDEX-OF) to install for manual way.
+[Read dotfiles wiki](https://github.com/ByDog3r/dotfiles/wiki) to install for manual way.
 
 > **Clone my dotfiles**
 ```sh 
@@ -46,7 +46,7 @@ cp -r .config* ~/.config/
 
 > Copy the home files
 ```sh
-cp .home/* ~/ 
+cp .home/* ~/
 ```
 
 > [Install apps](https://github.com/ByDog3r/dotfiles/blob/main/.pkgs), sample to install
@@ -54,7 +54,7 @@ cp .home/* ~/
 sudo pacman -S wine
 ```
 
-> Set your wallpaper, edit .xprofile and find this line 
+> Set your wallpaper, edit [.xprofile](https://github.com/ByDog3r/dotfiles/blob/main/.home/.xprofile) and find this line 
 ```sh
 feh --bg-scale /usr/share/pixmaps/wallpaper0.png &
 ```

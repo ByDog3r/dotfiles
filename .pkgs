@@ -2,15 +2,15 @@
 # |   Desktop Gui  |
 # ------------------
 
-1. lightdm 
-2. lightdm-gtk-greeter
-3. Qtile 
-4. xterm 
-5. Thunar
-6. Kitty
-7. feh
-8. Ranger
-9. ueberzug
+01. lightdm 
+02. lightdm-gtk-greeter
+03. Qtile 
+04. xterm 
+05. Thunar
+06. Kitty
+07. feh
+08. Ranger
+09. ueberzug
 10. Scrot
 11. Picom
 12. Gparted
@@ -20,7 +20,7 @@
 # |   Systray    |
 # ----------------
 
-1. Cbatticon 
+1. xsettingsd
 2. network-manager-applet
 3. udiskie
 4. volumeicon 
